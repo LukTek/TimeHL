@@ -31,7 +31,7 @@ hr.style-four {
 }
 
 h4{
-    color: #FAFAF0;
+    color: grey;
     font-size: 30px;
 }
 
@@ -45,6 +45,12 @@ h2{
     font-family: TitleFont;
 }
 
+h5{
+    color: #FAFAF0;
+    font-size: 70px;
+    font-family: TitleFont;
+    text-decoration: underline;
+}
 
 h6{
     color: lightgray;
@@ -54,8 +60,9 @@ h6{
 
 footer{
     background-color: #102027;
-    padding: 80px;
-    padding-bottom: 300px;
+    padding-left: 200px;
+    padding-top: 80px;
+    padding-bottom: 50px;
 
 }
 
@@ -115,21 +122,27 @@ footer{
 }
 
 
-.content{
+#ABOUT_OVERVIEW_CONTAINER{
     background-color: #8EACBB;
     width: 100%;
-
     margin: auto;
-    margin-top: 800px;
-
+    margin-top: 600px;
     margin-bottom: 0px;
     text-align: center;
-
-    padding: 40px 400px 400px 400px;
-
-
-
+    padding: 30px 400px 40px 400px;
 }
+
+#PERSONEL_CONTAINER{
+    background-color: #0D0D06;
+    width: 100%;
+
+    text-align: left;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
 
 
 /* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
